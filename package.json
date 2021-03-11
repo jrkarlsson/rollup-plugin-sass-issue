@@ -1,0 +1,27 @@
+{
+  "name": "rollup-plugin-scss-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c rollup.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrkarlsson/rollup-plugin-scss-issue.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jrkarlsson/rollup-plugin-scss-issue/issues"
+  },
+  "homepage": "https://github.com/jrkarlsson/rollup-plugin-scss-issue#readme",
+  "devDependencies": {
+    "rollup": "^2.41.1",
+    "rollup-plugin-scss": "^3.0.0-rc1"
+  },
+  "dependencies": {
+    "sass": "^1.32.8"
+  }
+}
